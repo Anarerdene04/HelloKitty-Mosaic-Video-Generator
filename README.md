@@ -13,7 +13,7 @@ This project explores image processing, animation logic, and Python-based video 
 
 ---
 
-✨ Features
+#✨ Features
 
 Mask-based mosaic rendering
 
@@ -39,7 +39,7 @@ project_root/
 
 │  ├─ 2.jpeg
 
-|  ├─ ...
+│  ├─ ...
 
 │  ├─ mask1.jpeg
 
@@ -50,50 +50,64 @@ project_root/
 ├─ hellokitty_mosaic.py
 
 
-Rules
+#Rules
 
-Plain images → filenames without "mask"
+ ●Plain images → filenames without "mask"
 
-Mask images → filenames containing "mask"
+ ●Mask images → filenames containing "mask"
 
 ---
 
-⚙️ Configuration
+#⚙️ Configuration
+
 PLAIN_COUNT    = 5
+
 PLAIN_DURATION = 1500
 
+
 TILE_W = 26
+
 TILE_H = 26
+
 GRID_STEP = 20
 
+
 FPS = 10
+
 BASE_TILE_COUNT = 5
 
+
 ZOOM_IN_FACTOR = 5.0
+
 ZOOM_OUT_STEPS = 10
 
 Parameter	Description
-PLAIN_COUNT	Number of intro frames
-PLAIN_DURATION	Duration of intro images (ms)
-TILE_W/H	Tile size
-GRID_STEP	Mosaic density
-FPS	Video FPS
-BASE_TILE_COUNT	Number of tile images
-ZOOM_IN_FACTOR	Initial zoom-in strength
-ZOOM_OUT_STEPS	Smoothness of zoom-out
-🧰 Used Technologies
 
-Python 3.x
+ Parameter        | Meaning                               
+------------------|-----------------------------------------
+ PLAIN_COUNT      | Number of intro frames                  
+ PLAIN_DURATION   | Intro frame duration (ms)               
+ TILE_W / TILE_H  | Tile size                               
+ GRID_STEP        | Mosaic density                          
+ FPS              | Video frame rate                        
+ BASE_TILE_COUNT  | Number of tile images                   
+ ZOOM_IN_FACTOR   | Strength of initial zoom-in             
+ ZOOM_OUT_STEPS   | Smoothness of zoom-out animation        
 
-Pillow
+#🧰 Used Technologies
 
-OpenCV
+ ●Python 3.x
 
-NumPy
+ ●Pillow
+
+ ●OpenCV
+
+ ●NumPy
 
 ---
 
-📥 Installation
+#📥 Installation
+
 pip install pillow opencv-python numpy
 
 
@@ -106,7 +120,7 @@ Produces:
 
 hellokitty_mosaic.mp4
 
-📸 Visual Example — How to Use
+#📸 Visual Example — How to Use
 
 Below are the steps demonstrating how the HelloKitty Mosaic Generator works —
 from preparing your images to producing the final MP4 output.
@@ -115,23 +129,23 @@ from preparing your images to producing the final MP4 output.
 
 Inside the hellokitty/ folder, include:
 
-Several plain Hello Kitty images
+ ●Several plain Hello Kitty images
 
-One or more mask images (filenames must include "mask")
+ ●One or more mask images (filenames must include "mask")
 
 2. Adjust configuration (optional)
 
 At the top of the script, you may adjust:
 
-Tile size
+ ●Tile size
 
-Grid density
+ ●Grid density
 
-FPS
+ ●FPS
 
-Zoom animation strength
+ ●Zoom animation strength
 
-Intro duration
+ ●Intro duration
 
 3. Run the script
 python hellokitty_mosaic.py
@@ -143,21 +157,21 @@ You will see console output indicating frame creation and processing.
 
 The script:
 
-Reads the mask
+ ●Reads the mask
 
-Detects valid tile positions inside the silhouette
+ ●Detects valid tile positions inside the silhouette
 
-Places small tile images at each valid position to create a full mosaic
+ ●Places small tile images at each valid position to create a full mosaic
 
 5. Zoom-in → Zoom-out animation
 
 For the first mask:
 
-A highly zoomed-in frame is created
+ ●A highly zoomed-in frame is created
 
-The zoom is reduced step-by-step
+ ●The zoom is reduced step-by-step
 
-Ending with a full mosaic frame for a smooth animated transition
+ ●Ending with a full mosaic frame for a smooth animated transition
 
 6. Final MP4 output
 
@@ -168,29 +182,29 @@ hellokitty_mosaic.mp4
 
 This file contains the intro section, mosaic sequences, and zoom animation.
 
-🎥 Video Demonstration
+#🎥 Video Demonstration
 
 ▶ Full Demo Video:
-https://www.instagram.com/XXXXXXXX
+
 
 
 Replace the URL after uploading your final demonstration video.
 
 ---
 
-🔍 How It Works — Short Overview
+#🔍 How It Works — Short Overview
 
-Detect plain vs mask images
+ ●Detect plain vs mask images
 
-Resize plain images into tiles
+ ●Resize plain images into tiles
 
-Process masks using thresholding + grid sampling
+ ●Process masks using thresholding + grid sampling
 
-Place tiles according to valid silhouette coordinates
+ ●Place tiles according to valid silhouette coordinates
 
-Generate zoom animation frames
+ ●Generate zoom animation frames
 
-Export all frames into an MP4 using OpenCV
+ ●Export all frames into an MP4 using OpenCV
 
 ---
 
@@ -214,7 +228,7 @@ https://numpy.org/
 
 (Useful documentation for array operations and PIL → OpenCV conversions.)
 
-https://www.instagram.com/XXXXXXXX
+https://www.instagram.com/reel/DMMqQvSAacP/?igsh=dm4xY3p1N2FoYng4
 
 (The Instagram Reel that inspired the visual idea of a Hello Kitty–shaped mosaic animation.)
 
