@@ -1,4 +1,4 @@
-# HelloKitty-Mosaic-Video-Generator
+# 🎀HelloKitty-Mosaic-Video-Generator
 The HelloKitty Mosaic Video Generator is a Python-based multimedia project that transforms a collection of Hello Kitty images and silhouette masks into an animated mosaic video (MP4).
 
 Using Pillow, OpenCV, and NumPy, the script:
