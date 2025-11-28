@@ -32,14 +32,14 @@ Fully configurable parameters
 🗂 Folder Structure
 project_root/
 ├─ hellokitty/
-│  ├─ 001.jpg
-│  ├─ kitty2.png
-│  ├─ ...
-│  ├─ mask1.png
-│  ├─ mask2.png
+│  ├─ 1.jpeg
+│  ├─ 2.jpeg
+|  ├─ ...
+│  ├─ mask1.jpeg
+│  ├─ mask2.jpeg
 │  └─ ...
 ├─ hellokitty_mosaic.py
-└─ README.md
+
 
 Rules
 
