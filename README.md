@@ -30,14 +30,23 @@ Fully configurable parameters
 ---
 
 🗂 Folder Structure
+
 project_root/
+
 ├─ hellokitty/
+
 │  ├─ 1.jpeg
+
 │  ├─ 2.jpeg
+
 |  ├─ ...
+
 │  ├─ mask1.jpeg
+
 │  ├─ mask2.jpeg
+
 │  └─ ...
+
 ├─ hellokitty_mosaic.py
 
 
