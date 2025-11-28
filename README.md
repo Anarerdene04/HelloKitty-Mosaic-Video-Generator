@@ -13,7 +13,7 @@ This project explores image processing, animation logic, and Python-based video 
 
 ---
 
-** H1✨ Features
+✨ **Features
 
 Mask-based mosaic rendering
 
