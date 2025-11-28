@@ -13,7 +13,7 @@ This project explores image processing, animation logic, and Python-based video 
 
 ---
 
-#✨ Features
+** H1✨ Features
 
 Mask-based mosaic rendering
 
@@ -29,7 +29,7 @@ Fully configurable parameters
 
 ---
 
-🗂 Folder Structure
+**🗂 Folder Structure
 
 project_root/
 
@@ -50,7 +50,7 @@ project_root/
 ├─ hellokitty_mosaic.py
 
 
-#Rules
+**Rules
 
  ●Plain images → filenames without "mask"
 
@@ -58,12 +58,11 @@ project_root/
 
 ---
 
-#⚙️ Configuration
+**⚙️ Configuration
 
 PLAIN_COUNT    = 5
 
 PLAIN_DURATION = 1500
-
 
 TILE_W = 26
 
@@ -71,17 +70,15 @@ TILE_H = 26
 
 GRID_STEP = 20
 
-
 FPS = 10
 
 BASE_TILE_COUNT = 5
-
 
 ZOOM_IN_FACTOR = 5.0
 
 ZOOM_OUT_STEPS = 10
 
-Parameter	Description
+**Parameter	Description
 
  Parameter        | Meaning                               
 ------------------|-----------------------------------------
@@ -94,7 +91,7 @@ Parameter	Description
  ZOOM_IN_FACTOR   | Strength of initial zoom-in             
  ZOOM_OUT_STEPS   | Smoothness of zoom-out animation        
 
-#🧰 Used Technologies
+**🧰 Used Technologies
 
  ●Python 3.x
 
@@ -106,7 +103,7 @@ Parameter	Description
 
 ---
 
-#📥 Installation
+**📥 Installation
 
 pip install pillow opencv-python numpy
 
@@ -120,7 +117,7 @@ Produces:
 
 hellokitty_mosaic.mp4
 
-#📸 Visual Example — How to Use
+**📸 Visual Example — How to Use
 
 Below are the steps demonstrating how the HelloKitty Mosaic Generator works —
 from preparing your images to producing the final MP4 output.
