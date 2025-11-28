@@ -11,6 +11,8 @@ Combines intro frames and mosaic frames into a complete video
 
 This project explores image processing, animation logic, and Python-based video generation.
 
+---
+
 ✨ Features
 
 Mask-based mosaic rendering
@@ -25,6 +27,8 @@ Automatic MP4 export with OpenCV
 
 Fully configurable parameters
 
+---
+
 🗂 Folder Structure
 project_root/
 ├─ hellokitty/
@@ -37,12 +41,13 @@ project_root/
 ├─ hellokitty_mosaic.py
 └─ README.md
 
-
 Rules
 
 Plain images → filenames without "mask"
 
 Mask images → filenames containing "mask"
+
+---
 
 ⚙️ Configuration
 PLAIN_COUNT    = 5
@@ -77,6 +82,8 @@ OpenCV
 
 NumPy
 
+---
+
 📥 Installation
 pip install pillow opencv-python numpy
 
@@ -91,8 +98,6 @@ Produces:
 hellokitty_mosaic.mp4
 
 📸 Visual Example — How to Use
-
-(no images, clean text format)
 
 Below are the steps demonstrating how the HelloKitty Mosaic Generator works —
 from preparing your images to producing the final MP4 output.
@@ -156,13 +161,13 @@ This file contains the intro section, mosaic sequences, and zoom animation.
 
 🎥 Video Demonstration
 
-(You will insert your real link here)
-
 ▶ Full Demo Video:
 https://www.instagram.com/XXXXXXXX
 
 
 Replace the URL after uploading your final demonstration video.
+
+---
 
 🔍 How It Works — Short Overview
 
@@ -178,9 +183,13 @@ Generate zoom animation frames
 
 Export all frames into an MP4 using OpenCV
 
+---
+
 📄 License
 
 MIT License
+
+---
 
 🙏 Acknowledgements & References
 
