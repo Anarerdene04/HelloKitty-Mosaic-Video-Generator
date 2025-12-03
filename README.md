@@ -133,11 +133,7 @@ Inside the hellokitty/ folder, include:
 
  ●Several plain Hello Kitty images
 
-![4](https://github.com/user-attachments/assets/5f2aba06-8c45-4540-ad08-75ad761d8a9e)
-
  ●One or more mask images (filenames must include "mask")
-
-![mask13](https://github.com/user-attachments/assets/574b4404-5a80-4e55-b0a4-4453f5d40bc1)
 
 2. Adjust configuration (optional)
 
@@ -194,9 +190,13 @@ This file contains the intro section, mosaic sequences, and zoom animation.
 
 ▶ Full Demo Video:
 
+<img width="725" height="589" alt="kitty1" src="https://github.com/user-attachments/assets/a4929159-895b-416b-bcfa-ddc9629af1ad" />
 
+<img width="733" height="591" alt="kitty2" src="https://github.com/user-attachments/assets/b85d3a6b-ec6b-4e79-b8b4-c0b6466e4373" />
 
-Replace the URL after uploading your final demonstration video.
+<img width="727" height="582" alt="kitty3" src="https://github.com/user-attachments/assets/37839e71-eef7-47df-bdd2-8a3bfec22a4b" />
+
+<img width="726" height="581" alt="kitty4" src="https://github.com/user-attachments/assets/45adac7c-781c-4a0f-8a4f-8ecc72594b61" />
 
 ---
 
