@@ -220,7 +220,7 @@ https://youtube.com/shorts/Aj5TN2mJaIE?feature=share
 
 **📄 License**
 
-MIT License
+MIT License: 
 
 ---
 
