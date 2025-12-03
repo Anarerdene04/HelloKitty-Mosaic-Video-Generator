@@ -49,6 +49,7 @@ project_root/
 
 ├─ hellokitty_mosaic.py
 
+---
 
 **Rules**
 
@@ -91,6 +92,8 @@ ZOOM_OUT_STEPS = 10
  ZOOM_IN_FACTOR   | Strength of initial zoom-in             
  ZOOM_OUT_STEPS   | Smoothness of zoom-out animation        
 
+---
+
 **🧰 Used Technologies**
 
  ●Python 3.x
@@ -116,6 +119,8 @@ python hellokitty_mosaic.py
 Produces:
 
 hellokitty_mosaic.mp4
+
+---
 
 **📸 Visual Example — How to Use**
 
@@ -178,6 +183,8 @@ hellokitty_mosaic.mp4
 
 
 This file contains the intro section, mosaic sequences, and zoom animation.
+
+---
 
 **🎥 Video Demonstration**
 
