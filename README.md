@@ -190,6 +190,8 @@ This file contains the intro section, mosaic sequences, and zoom animation.
 
 ▶ Full Demo Video:
 
+https://youtube.com/shorts/Aj5TN2mJaIE?feature=share
+
 <img width="725" height="589" alt="kitty1" src="https://github.com/user-attachments/assets/a4929159-895b-416b-bcfa-ddc9629af1ad" />
 
 <img width="733" height="591" alt="kitty2" src="https://github.com/user-attachments/assets/b85d3a6b-ec6b-4e79-b8b4-c0b6466e4373" />
