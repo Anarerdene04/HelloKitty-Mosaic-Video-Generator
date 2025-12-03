@@ -13,7 +13,7 @@ This project explores image processing, animation logic, and Python-based video 
 
 ---
 
-✨ **Features
+✨ **Features**
 
 Mask-based mosaic rendering
 
@@ -29,7 +29,7 @@ Fully configurable parameters
 
 ---
 
-**🗂 Folder Structure
+**🗂 Folder Structure**
 
 project_root/
 
@@ -50,7 +50,7 @@ project_root/
 ├─ hellokitty_mosaic.py
 
 
-**Rules
+**Rules**
 
  ●Plain images → filenames without "mask"
 
@@ -58,7 +58,7 @@ project_root/
 
 ---
 
-**⚙️ Configuration
+**⚙️ Configuration**
 
 PLAIN_COUNT    = 5
 
@@ -78,7 +78,7 @@ ZOOM_IN_FACTOR = 5.0
 
 ZOOM_OUT_STEPS = 10
 
-**Parameter	Description
+**Parameter	Description**
 
  Parameter        | Meaning                               
 ------------------|-----------------------------------------
@@ -91,7 +91,7 @@ ZOOM_OUT_STEPS = 10
  ZOOM_IN_FACTOR   | Strength of initial zoom-in             
  ZOOM_OUT_STEPS   | Smoothness of zoom-out animation        
 
-**🧰 Used Technologies
+**🧰 Used Technologies**
 
  ●Python 3.x
 
@@ -103,7 +103,7 @@ ZOOM_OUT_STEPS = 10
 
 ---
 
-**📥 Installation
+**📥 Installation**
 
 pip install pillow opencv-python numpy
 
@@ -117,7 +117,7 @@ Produces:
 
 hellokitty_mosaic.mp4
 
-**📸 Visual Example — How to Use
+**📸 Visual Example — How to Use**
 
 Below are the steps demonstrating how the HelloKitty Mosaic Generator works —
 from preparing your images to producing the final MP4 output.
@@ -179,7 +179,7 @@ hellokitty_mosaic.mp4
 
 This file contains the intro section, mosaic sequences, and zoom animation.
 
-#🎥 Video Demonstration
+**🎥 Video Demonstration**
 
 ▶ Full Demo Video:
 
@@ -189,7 +189,7 @@ Replace the URL after uploading your final demonstration video.
 
 ---
 
-#🔍 How It Works — Short Overview
+**🔍 How It Works — Short Overview**
 
  ●Detect plain vs mask images
 
@@ -205,13 +205,13 @@ Replace the URL after uploading your final demonstration video.
 
 ---
 
-📄 License
+**📄 License**
 
 MIT License
 
 ---
 
-🙏 Acknowledgements & References
+**🙏 Acknowledgements & References**
 
 https://pillow.readthedocs.io/
 
