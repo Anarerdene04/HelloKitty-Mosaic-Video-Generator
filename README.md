@@ -133,6 +133,9 @@ Inside the hellokitty/ folder, include:
 
  ●Several plain Hello Kitty images
 
+ ![1](https://github.com/user-attachments/assets/5c8d2312-1399-4476-81ba-9a14ac968eff)
+
+
  ●One or more mask images (filenames must include "mask")
 
 2. Adjust configuration (optional)
